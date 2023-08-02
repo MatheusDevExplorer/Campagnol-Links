@@ -131,8 +131,13 @@ ul li a {
   -webkit-backdrop-filter: blur(8px);
 }
 
-ul li a:hover {
+.light ul li a:hover {
   background: var(--surface-color);
+  border: 1.5px solid var(--text-color);
+}
+
+ul li a:hover {
+  background: var(--surface-color-hover);
   border: 1.5px solid var(--text-color);
 }
 
@@ -181,7 +186,7 @@ footer {
 
 /* animation */
 
-@keyframes slide-in{
+@keyframes slide-in {
   from {
   left : 0;
   }
