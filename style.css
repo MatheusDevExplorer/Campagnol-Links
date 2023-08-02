@@ -171,13 +171,14 @@ footer {
   :root {
       --bg-url: url(assets/bg-desktop.jpg);
   }
+}
 
 @media (min-width: 700px) {
-    .light {
-        --bg-url: url(assets/bg-desktop-light.jpg);
-    }
+  .light {
+      --bg-url: url(assets/bg-desktop-light.jpg);
   }
 }
+
 /* animation */
 
 @keyframes slide-in{
